@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34C3C9AC1C73C7DB00D78BFB /* FactBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C3C9AB1C73C7DB00D78BFB /* FactBook.m */; };
+		34C3C9AF1C73D38100D78BFB /* ColorWheel.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C3C9AE1C73D38100D78BFB /* ColorWheel.m */; };
 		34D7C0281C72BC0900DD2A7D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D7C0271C72BC0900DD2A7D /* main.m */; };
 		34D7C02B1C72BC0900DD2A7D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D7C02A1C72BC0900DD2A7D /* AppDelegate.m */; };
 		34D7C02E1C72BC0900DD2A7D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D7C02D1C72BC0900DD2A7D /* ViewController.m */; };
@@ -27,6 +29,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		34C3C9AA1C73C7DB00D78BFB /* FactBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactBook.h; sourceTree = "<group>"; };
+		34C3C9AB1C73C7DB00D78BFB /* FactBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactBook.m; sourceTree = "<group>"; };
+		34C3C9AD1C73D38100D78BFB /* ColorWheel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorWheel.h; sourceTree = "<group>"; };
+		34C3C9AE1C73D38100D78BFB /* ColorWheel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorWheel.m; sourceTree = "<group>"; };
 		34D7C0221C72BC0900DD2A7D /* FunFacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunFacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34D7C0261C72BC0900DD2A7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34D7C0271C72BC0900DD2A7D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -86,6 +92,10 @@
 				34D7C02C1C72BC0900DD2A7D /* ViewController.h */,
 				34D7C02D1C72BC0900DD2A7D /* ViewController.m */,
 				34D7C02F1C72BC0900DD2A7D /* Main.storyboard */,
+				34C3C9AD1C73D38100D78BFB /* ColorWheel.h */,
+				34C3C9AE1C73D38100D78BFB /* ColorWheel.m */,
+				34C3C9AA1C73C7DB00D78BFB /* FactBook.h */,
+				34C3C9AB1C73C7DB00D78BFB /* FactBook.m */,
 				34D7C0321C72BC0900DD2A7D /* Images.xcassets */,
 				34D7C0341C72BC0900DD2A7D /* LaunchScreen.xib */,
 				34D7C0251C72BC0900DD2A7D /* Supporting Files */,
@@ -221,7 +231,9 @@
 			files = (
 				34D7C02E1C72BC0900DD2A7D /* ViewController.m in Sources */,
 				34D7C02B1C72BC0900DD2A7D /* AppDelegate.m in Sources */,
+				34C3C9AC1C73C7DB00D78BFB /* FactBook.m in Sources */,
 				34D7C0281C72BC0900DD2A7D /* main.m in Sources */,
+				34C3C9AF1C73D38100D78BFB /* ColorWheel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +428,7 @@
 				34D7C0471C72BC0900DD2A7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		34D7C0481C72BC0900DD2A7D /* Build configuration list for PBXNativeTarget "FunFactsTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +437,7 @@
 				34D7C04A1C72BC0900DD2A7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

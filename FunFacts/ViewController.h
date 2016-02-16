@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FactBook.h"
+#import "ColorWheel.h"
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *funFactLabel;
+@property (weak, nonatomic) IBOutlet UIButton *funFactButton;
 
 @end
 
